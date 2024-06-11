@@ -25,9 +25,9 @@ int main() {
         std::string path = url_match_result[3].matched ? url_match_result[3] : std::string("/");
 
 
-        std::cout << "Protocol: " << protocol << "\n";
-        std::cout << "Server: " << server << "\n";
-        std::cout << "Path: " << path << "\n";
+        // std::cout << "Protocol: " << protocol << "\n";
+        // std::cout << "Server: " << server << "\n";
+        // std::cout << "Path: " << path << "\n";
 
 
         // 创建一个IO上下文
